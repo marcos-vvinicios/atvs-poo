@@ -15,8 +15,20 @@ public class TestaProduto {
         p1.removerDoEstoque(30);
         System.out.println("Apos remover 30: " + p1.getQuantidadeEmEstoque());
 
-        p1.setPreco(12.0);
+        p1.setPreco(1500.0);
         System.out.println("Novo preco: R$ " + p1.getPreco());
+
+         p2.exibirinfos();
+
+        p2.adicionarAoEstoque(50);
+        System.out.println("Apos adicionar 50: " + p1.getQuantidadeEmEstoque());
+
+        p2.removerDoEstoque(30);
+        System.out.println("Apos remover 30: " + p1.getQuantidadeEmEstoque());
+
+        p2.setPreco(3000.0);
+        System.out.println("Novo preco: R$ " + p1.getPreco());
+
 
     }
 }
